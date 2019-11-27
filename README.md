@@ -1,7 +1,8 @@
-# email_promo-indeedjobsupdate
-Clone of an email from indeed jobs updates
+# email_transactional-metropcs-confirmation-payment
 
-https://jerome-wilson-developer.github.io/email_promo-indeedjobsupdate/
+This confirmation for a monthly payment is being sent to a service subscriber of metroPCS. This clone of a transactional email provides the payment amount, the date and time of the payment, and the balance due that remains on this phone service account. metroPCS is also boldly using a bright purple banner box to thank their customer for the payment. The footer contains miscellaneous information and "fine-print" regarding the account that may be of interest to their customers.  
+
+https://jerome-wilson-developer.github.io/email_transact-metropcs-payment/
 
 My 5 Phases of Web Development:
 Phase#1: Planning the Project.
