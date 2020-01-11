@@ -15,15 +15,12 @@ rel="stylesheet">
   .main-container{
     width:100%;
   }
-
 }
-
   /* Smartphone View */
 @media all and (max-width: 767px){            
   .disclaimer{
     display: none;
   }
-
 }     
 </style>
 </head>
@@ -33,13 +30,10 @@ rel="stylesheet">
 <!-- begin the table for the main-wrapper {width:100%;} -->
 <table id="main-wrapper-container" width="100%" align="center" border="0" 
 cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
-
-
-
 <!-- begin disclaimer announcing no intent of mcdonald proprietary infringements -->
 <tr>
   <td>
-      <table class="disclaimer" width="100%" align="center" border="0" 
+      <table tabindex="-1" class="disclaimer" width="100%" align="center" border="0" 
       cellspacing="0" cellpadding="0" style="background-color:wheat; 
       text-align:left; margin:0; padding:0;">
         <tr>
@@ -78,10 +72,10 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
                       TECHNOLOGIES USED:
                 </span>
                 <br/>html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA,
-                      <a align="center" href="https://github.com/jerome-wilson-developer/email_transact-metropcs-confirmation-payment" target="_blank">
+                      <a role="-1" align="center" href="https://github.com/jerome-wilson-developer/email_transact-metropcs-confirmation-payment" target="_blank">
                         GITHUB
                       </a>, lighthouse, 
-                      <a href="https://metropcs-payment-confirmation.netlify.com/" target="_blank">
+                      <a role="-1" href="https://metropcs-payment-confirmation.netlify.com/" target="_blank">
                         NETLIFY
                       </a>.
             <hr/>
@@ -122,7 +116,9 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
       <td>
     <table>
     <tr>
-      <td style="text-align:left; padding:20px 190px; color:#292929; font-weight:500; margin-bottom:30px;">
+      <td tabindex="0" style="text-align:left; 
+      padding:20px 190px; color:#292929; 
+      font-weight:500; margin-bottom:30px;">
         <p>From: Metro PCS</p>
         <p>Sent: Saturday, September 7, 2019 10:02:44 AM</p>
         <p>To: jerome-wilson-developer@hotmail.com</p>
@@ -133,33 +129,27 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
       </td>
     </tr>
     <!-- end email metadata for the email receipt -->
-
-
-
-
     <!-- BEGIN TABLE FOR THE "HTML-EMAIL-CONTAINER-WIDTH:600PX; -->
     <tr>
       <td>
-    <table class="htmlEmail600px" width="600px" align="center" border="0" 
-    cellpadding="0" cellspacing="0" style=" font-family:'Open Sans', Helvetica, Arial, sans-serif; background-color:#ffffff; font-size:14px; color:#292929; padding:10px; margin:10px;">
-
-
+    <table class="htmlEmail600px" 
+    width="600px" align="center" border="0" 
+    cellpadding="0" cellspacing="0" 
+    style=" font-family: Arial, Helvetica, sans-serif; 
+    background-color:#ffffff; font-size:14px; 
+    color:#292929; padding:10px; margin:10px;">
     <!-- begin row for the header -->
     <tr>
       <td>
           <table class="header" align="center" border="0" 
           cellspacing="0" cellpadding="0" width="100%">
-
     <!-- begin row for the header: 'here's your confirmation' -->    
     <tr>
       <td style="padding:10px;">
         Here's your confirmation
       </td>
     </tr>
-    <!-- end row for the header: 'here's your confirmation' -->    
-
-
-
+    <!-- end row for the header: 'here's your confirmation' -->
 <!-- begin row for the header menu nav -->
 <tr>
   <td align="center" width="100%" cellspacing="0" 
@@ -169,15 +159,17 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
       style="background-color:#46196E; padding:10px">
           <tr>
               <td style="text-align:center; padding:0px 20px 20px 20px;">
-                  <img src="images/metropcs-logo-small.png" width="15%" height="" alt="this is a metropcs logo image"/>
+                  <img src="images/metropcs-logo-small.png" 
+                  width="15%" height="" 
+                  alt="this is a metropcs logo image"/>
 
-                  <a href="https://www.metrobyt-mobile.com/shop/plans" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
+                  <a role="button" href="https://www.metrobyt-mobile.com/shop/plans" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
                     SHOP
                   </a>        
-                  <a href="https://www.metrobyt-mobile.com/ordersupport" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
+                  <a role="button" href="https://www.metrobyt-mobile.com/ordersupport" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
                     SUPPORT
                   </a>
-                  <a href="https://www.metrobyt-mobile.com/my-account/sign-in" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
+                  <a role="button" href="https://www.metrobyt-mobile.com/my-account/sign-in" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:50px; font-weight:600;">
                     PAYMENT
                   </a>
               </td>
@@ -188,10 +180,6 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
   </td>
 </tr>
 <!-- end row for the header menu nav -->
-
-
-
-
     <!-- begin row for the header: 'thanks for payment' -->
     <tr>
       <td>
@@ -201,8 +189,6 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
     </tr>
     <!-- end row for the header: 'thanks for payment' -->
     <!-- end row for the header -->
-
-
     <tr>
       <td>
         <p style="margin-top:50px; margin-bottom:50px;padding:10px;">We've received your payment of <span style="font-weight:600;">$60.00</span> on <span style="font-weight:600;">
@@ -221,10 +207,7 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
     </table>
       </td>
     </tr>
-
-
     <hr/>
-
     <!-- begin logo block for the nav menu -->
     <tr>
       <td>
@@ -233,48 +216,49 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
     <tr>
       <td style="text-align:left; padding:0px 20px 10px 20px;">
         <img src="images/metropcs-logo-small.png" width="20%" height="" alt="this is a small metropcs logo image"/>
-        <a href="https://www.metrobyt-mobile.com/" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:20px; font-weight:600;">
+        <a role="button" href="https://www.metrobyt-mobile.com/" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:20px; font-weight:600;">
           Phones
         </a>        
-        <a href="https://www.metrobyt-mobile.com/storelocator" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:10px; font-weight:600;">
+        <a role="button" href="https://www.metrobyt-mobile.com/storelocator" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:10px; font-weight:600;">
           Store Locator
         </a>
-        <a href="https://www.metrobyt-mobile.com/my-account/sign-in" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:10px; font-weight:600;">
+        <a role="button"  href="https://www.metrobyt-mobile.com/my-account/sign-in" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:10px; font-weight:600;">
           My Account
         </a>
-        <a href="https://www.facebook.com/MetroPCS" style="">
+        <a role="button" href="https://www.facebook.com/MetroPCS">
           <img src="images/logo-Facebook.png" 
-          width="" height="" alt="facebook icon" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:20px; font-weight:600;"/>
+          width="" height="" alt="facebook icon" 
+          style="text-decoration:none; text-transform:uppercase; 
+          font-size:1.0rem; color:#ffffff; 
+          padding-left:10px; font-weight:600;"/>
         </a>
-        <a href="https://twitter.com/MetroPCS" style="">
+        <a role="button" href="https://twitter.com/MetroPCS">
           <img src="images/logo-Twitter.png" 
-          width="" height="" alt="twitter icon" style="text-decoration:none; text-transform:uppercase; font-size:1.0rem; color:#ffffff; padding-left:10px; font-weight:600;"/>
+          width="" height="" alt="twitter icon" 
+          style="text-decoration:none; 
+          text-transform:uppercase; font-size:1.0rem; 
+          color:#ffffff; padding-left:10px; 
+          font-weight:600;"/>
         </a>
       </td>
     </tr>
     </table>
       </td>
     </tr>
-    <!-- end logo block for the nav menu -->   
-
-
-
-
+    <!-- end logo block for the nav menu -->
     <!--begin table for footer nav menu-->
     <tr>
         <td style="font-size:12px; padding:10px 10px;">
           <p style="text-align:left;">
             Service may be slowed, suspended, terminated, or restricted for misuse, abnormal use, interference with our network or ability to provide quality service to other users, or significant roaming. See store or metrobyt‑mobile.com for details, coverage maps, restrictions and Terms and Conditions of Service (including arbitration provision). Metro, MetroByT-Mobile and other words, slogans, designs and devices are registered or unregistered trademarks of T‑Mobile USA. Copyright ©2019 T‑Mobile USA, Inc. 
-          </p>
-  
+          </p>  
           <p style="text-align:left;">
             This email was sent by: Metro® by T‑Mobile, PO Box 601119, Dallas, Texas 75360 USA 
-          </p>
-  
+          </p>  
           <p style="text-align:left;">
             If you've received this message in error, or if you prefer not to receive future email messages from Metro® by T‑Mobile, please
               <span style="font-weight:600;">
-                <a href="https://www.metrobyt-mobile.com/optout" style="font-weight:500; font-size:.7rem; text-decoration:none;">
+                <a role="button" href="https://www.metrobyt-mobile.com/optout" style="font-weight:500; font-size:.7rem; text-decoration:none;">
                 unsubscribe    
                 </a>
               </span>. 
@@ -283,12 +267,9 @@ cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
       </tr>
 </table>
     <!-- end table for footer nav menu -->
-
 <!--END TABLE FOR THE "HTML-EMAIL-CONTAINER-WIDTH:600PX;-->
-
       <!-- </td> -->
       <!-- </tr> -->
-
       </td>
     </tr>
 </table>    
